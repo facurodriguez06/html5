@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Meta necesarias que pide en el último punto-->
+    <meta name = "description" content="Perfil de usuario de Facundo Rodríguez: Proyectos, datos de contacto y formulario para actualizar información.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuario de Facundo Rodríguez</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+    <h1>Perfil de Usuario</h1>
+    <p>Información pública, contacto y actualización del perfil</p>
+    </header>
+
+    <!--Main-->
+    <main>
+        
+        <!--Biografía??-->
+        <section aria-labelledby="bio-titulo">
+            <h2 id = "bio-titulo">Biografía</h2>
+            <article>
+                <header>
+                    <h3>Facundo Rodríguez</h3>
+                </header>
+                <figure>
+                    <img src="" alt="Foto de perfil de Facundo Rodríguez" width="160" height="160">
+                    <figcaption>Foto de Perfil</figcaption>
+                </figure>
+
+                <p>Estudiante de Ingeniería en Sistemas con conocimientos avanzados en FrontEnd y conocimientos intermedios en BackEnd. Mi meta es dedicarme al área de Ciberseguridad una vez que termine la carrera.</p>
+                <footer>
+                    <p>Miembro desde 2023 - Última actualización: 27-08-2025</p>
+                </footer>
+            </article>
+        </section>
+
+        <section aria-labelledby="contacto-titulo">
+            <h2 id="contacto-titulo">Datos de contacto</h2>
+
+            <table>
+                <caption>Información de contacto de Facundo Rodríguez</caption>
+                <thead>
+
+                    <tr>
+                        <th scoope="col">Tipo</th>
+                        <th scope="col">Detalle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Email</td>
+                        <td><a href="mailto: facundorodriguezsp@gmail.com"> facundorodriguezsp@gamil.com</a> </td>
+                    </tr>
+                    <tr>
+                        <td>Telefono</td>
+                        <td><a href="tel: +5492614994711"> +54 9 261 499 4711</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="form-titulo">
+            <h2 id="Actualizar perfil"></h2>
+
+            <form action="#" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Información básica</legend>
+
+                    <p>
+                        <label for="nombre">Nombre Completo</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Facundo Rodríguez" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Correo Electrónico</label><br>
+                        <input type="email" id="email" name="email" placeholder="facundorodriguezsp@gmail.com"required>
+                    </p>
+
+                    <p>
+                        <label for="bio">Biografía</label><br>
+                        <textarea id="bio" name="bio" rows="5" cols="30" placeholder="Contanos algo sobre vos...." required></textarea>
+                    </p> 
+                </fieldset>
+                <p>
+                    <button type="submit">Guardar Cambios</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+        <nav aria-label="Enlaces legales">
+            <a href="#">Términos</a>
+            <a href="#">Privacidad</a>
+            <a href="Ayuda"></a>
+        </nav>
+        <p>&copy; 2025 Perfil Demo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
